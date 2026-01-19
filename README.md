@@ -44,3 +44,17 @@ The assembly code (`swirl.asm`) transforms each pixel by:
 3. Sampling the source image at the computed coordinates
 
 Pixels outside the swirl radius are copied unchanged for efficiency.
+
+Swirl = 0.0
+<img width="802" height="604" alt="image" src="https://github.com/user-attachments/assets/1ac20b65-7736-4f2c-a663-60351018de28" />
+
+Swirl = 2.0
+<img width="802" height="602" alt="image" src="https://github.com/user-attachments/assets/41b304c4-05d4-4082-95b4-0f02fa8ab2be" />
+
+Swirl = 6.0
+<img width="803" height="601" alt="image" src="https://github.com/user-attachments/assets/bd710624-915f-4787-b5d1-b3384eaee81e" />
+
+Swirl = 12.0
+<img width="798" height="604" alt="image" src="https://github.com/user-attachments/assets/fc26bb79-d514-4022-b9f9-6d099cdad04f" />
+
+
